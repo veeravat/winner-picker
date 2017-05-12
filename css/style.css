@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('../fonts/Digital.ttf.woff') format('woff'), url('../fonts/Digital.ttf.svg#Digital') format('svg'), url('../fonts/Digital.ttf.eot'), url('../fonts/Digital.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../img/bg.png");
+}
+
+.result {
+    font-size: 500px;
+    font-family: 'Digital';
+}
+
+table {
+    font-size: 100px;
+    font-family: 'Digital';
+    color: #84cffe;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+#lotto-img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    /* respsonsive width */
+}
