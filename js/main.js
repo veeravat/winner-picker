@@ -55,7 +55,7 @@ function updateTotal() {
     $.ajax({
         type: 'GET',
         dataType: "json",
-        url: "fn/randed.json",
+        url: "../fn/randed.json",
         success: function(data) {
             $('#recent-badge').html(data.length)
         }
